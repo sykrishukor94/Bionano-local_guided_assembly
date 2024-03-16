@@ -1,6 +1,8 @@
 <img src="/images/Bionano-Logo.png" alt= “Bionano” width="5%" height="5%" title="GA"/>
 
 # Local Guided Assembly #
+Local Guided Assembly is an experimental workflow, utilizing packages from Bionano Solve 3.7, a software suite primarily used for Optical Genome Mapping data analysis. This workflow is specifically useful to compute and visualize distribution of molecules aligning to a reference. Application of this workflow is in analyzing genomic repeat expansion disease and engineered cell QC.
+
 It is recommended to launch assemblies from molecule .bnx files via command line if assembly intermediate files -`alignmolvref` step - are needed as input for downstream bioinformatics analysis (e.g molecule distance script). Assemblies downloaded from Access will likely not contain `alignmolvref` intermediate files.
 
 For quick reference, please proceed to Local Guided Assembly (GA-Local) via Command Line Usage section.
